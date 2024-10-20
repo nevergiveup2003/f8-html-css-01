@@ -1,0 +1,24 @@
+/* PC */
+@media screen and (min-width: 992px) {
+}
+/* tablet and mobile */
+@media screen and (max-width: 991px) {
+    .navbar{
+        position: relative;
+    }
+    .logo{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+    .navbar ul{
+        display: none;
+    }
+}
+/* tablet */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+}
+/* mobile */
+@media screen and (max-width: 767px) {
+}
